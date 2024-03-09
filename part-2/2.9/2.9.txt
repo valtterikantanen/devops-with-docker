@@ -1,0 +1,8 @@
+The following changes were made:
+
+- I removed the REQUEST_ORIGIN environment variable from the backend's Dockerfile and the REACT_APP_BACKEND_URL environment variable from the frontend's Dockerfile
+- I added the same environment variables in the correct form to docker-compose.yml (to reflect the service names in the Docker network):
+  - REQUEST_ORIGIN: Changed from http://localhost:5000 to http://frontend:5000
+  - REACT_APP_BACKEND_URL: Changed from http://localhost:8080 to http://backend:8080
+
+After these adjustments and rebuilding the frontend and backend images, everything was working again.
