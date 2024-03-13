@@ -1,0 +1,3 @@
+Size of frontend image without multi-stage build: 473MB
+
+Size of frontend image with multi-stage build: 129MB (−344MB­)

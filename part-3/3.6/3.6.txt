@@ -1,0 +1,7 @@
+Size of frontend image before optimization: 480MB
+Size of backend image before optimization: 1.07GB
+
+I joined the RUN commands together and also removed node_modules from the frontend image as they aren't needed after the React app has been built.
+
+Size of frontend image after optimization: 473MB (−8MB­)
+Size of backend image after optimization: 1.07GB (±0MB)

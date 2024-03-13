@@ -1,0 +1,7 @@
+Size of frontend image before optimization: 473MB
+Size of backend image before optimization: 1.07GB
+
+For the frontend image, I was already using the Alpine version of the Node image. For the backend, I changed golang:1.16 base image to golang:1.16-alpine.
+
+Size of frontend image after optimization: 473MB (±0MB­)
+Size of backend image after optimization: 447MB (−649MB)
